@@ -12,7 +12,7 @@ page-layout: full
 toc: false
 ---
 
-I am Jorge C Lucero, a professor of math and computer science who has folded paper for decades and published on the axiomatics of origami geometry. This site collects what I write about folding: free online books in progress, my research papers, a blog, and reviews of origami books and origami-inspired objects.
+I am Jorge C Lucero, a professor of computer science who has folded paper for decades and published on the axiomatics of origami geometry. This site collects what I write about folding: free online books in progress, my research papers, a blog, and reviews of origami books and origami-inspired objects.
 
 ::: {.grid}
 ::: {.g-col-12 .g-col-md-6}

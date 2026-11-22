@@ -1,11 +1,33 @@
 ---
 title: "About"
+subtitle: "From Tomoko Fuse's boxes to the geometry of folding"
+toc: false
 ---
 
-<!-- Replace with your own text. Keep it short; the Publications page carries the academic detail. -->
+I met origami in Japan, in the 1990s, while doing my doctoral studies in engineering at Shizuoka University. Until then I had taken paper folding for a children's pastime: cranes and hats. The book that changed that was one of Tomoko Fuse's collections of boxes. Her boxes are built from identical units locked together by their own geometry, and in them I saw for the first time what has kept me folding ever since: patterns, symmetry, and a surprising amount of engineering hiding in a square of paper. I took the hobby seriously enough to earn an instructor certificate from the Nippon Origami Association before leaving Japan.
 
-Jorge C. Lucero is Professor Titular of Computer Science at the University of Brasília. Alongside thirty years of research on the mathematical modelling of voice production, he has published on the axiomatic foundations of origami geometry — single-fold operations, Beloch's fold, three-dimensional folding axioms — and folds complex origami for pleasure.
+In my working life I am Jorge C. Lucero, Ph.D. in engineering, and professor of computer science at the University of Brasília. Most of my research has been on voice science, which is a story for another site. Origami has been the parallel thread: I have designed models, folded at international conventions, taught short courses on origami mathematics at Brazilian universities, and published a handful of papers on the geometry of folding. They are listed, with PDFs, on the [publications](publications/index.qmd) page.
 
-This site is independent and personal. Some pages contain affiliate links; see the [disclosure](disclosure.qmd).
+## About this site
 
-**Contact:** <!-- email or form link -->
+orig4mi is where origami meets mathematics, told by someone who folds, draws the diagrams, and proves the occasional theorem. It has three sections:
+
+- **Fold**: my own designs, with diagrams or crease patterns, and constructions you can fold from a plain square.
+- **Understand**: the mathematics, history and theory of folding, written for folders, teachers and students.
+- **Discover**: origami at work in science, engineering and design.
+
+### About the name
+
+I coined *orig4mi* in 2008 for a Portuguese-language blog I kept for a couple of years, back when the television series *Numb3rs* made replacing a letter with a digit look clever. The blog is long gone, but the name still says what I mean: origami with a touch of math. Some of those early posts return here, translated and expanded.
+
+## Elsewhere
+
+- Photos of models, some of them mine: [Flickr](https://www.flickr.com/photos/orig4mi/)
+- Academic page: [lucerojc.github.io](https://lucerojc.github.io)
+- [LinkedIn](https://www.linkedin.com/in/lucerojc)
+
+## Contact and disclosure
+
+Write to [jorge@orig4mi.com](mailto:jorge@orig4mi.com). I answer folding questions when I can, and I am happy to hear from teachers using the posts in class.
+
+This site is independent and personal. Some pages carry affiliate links to books, paper and tools I use; they cost you nothing and help keep the site running. Details on the [disclosure](disclosure.qmd) page.

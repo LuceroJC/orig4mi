@@ -1,0 +1,109 @@
+---
+title: "A history of origami, from ceremony to computation"
+description: "How old is origami? Younger than the 'ancient Japanese art' story, older than the 1600s: what the evidence actually shows, and how a sword fitting from 1591 rewrote the first chapter."
+date: 2026-11-22
+categories: [understand, history]
+aliases:
+  - /history-of-origami.html
+  - /history-of-origami/
+image: images/yoshizawa-bull.jpg
+---
+
+## How old is origami?
+
+Ask almost anyone and you get the same answer: an ancient Japanese art, a thousand years old or more, handed down from the Heian court. I believed it too, and repeated it, until I went looking for the evidence. There is almost none. What survives tells a shorter and more interesting story: folding grew in two places that knew nothing of each other, Japan and Europe, for different reasons, and the thing we call origami is a product of their meeting in the late nineteenth century and a creative explosion in the twentieth. The oldest firmly dated picture of a paper crane is from 1591, and we have known that only since 2017.
+
+Here is the story as the documents tell it, with the dates that can be defended.
+
+## Paper first
+
+Nothing can be folded before it exists. Chinese tradition credits paper to the court official Cai Lun in 105 CE, but archaeology has pushed the material itself back: fragments found at Fangmatan in Gansu date from the second century BCE. Cai Lun's contribution was the process, cheap and repeatable, using bark, hemp and rags. From China the craft moved to Korea and, according to the *Nihon Shoki*, reached Japan in 610 through the monk Donchō. Whether Donchō introduced papermaking or was merely good at it, the Japanese took the craft further than anyone: *washi*, made from the long fibres of the paper mulberry, is strong enough to be folded and refolded, and that property matters for everything that follows.
+
+![Five woodcuts depicting the five seminal steps in ancient Chinese papermaking, from the 1637 *Tiangong Kaiwu* of the Ming dynasty. [Unknown pre-modern painter](https://commons.wikimedia.org/wiki/File:Making_Paper.gif), public domain, via Wikimedia Commons.](images/papermaking-1637.png){fig-alt="Five woodcut panels showing the stages of traditional Chinese papermaking, from soaking the bark and fibres to drying the sheets" fig-align="center" width="100%"}
+
+## Japan: folding before play
+
+The first Japanese folds were not toys. Paper was expensive and sacred. At Shinto shrines the zigzag *shide* streamers and *gohei* wands are folded paper, and they are old. From the Heian period (794–1185) we have *tatō*, folded paper packets carried by gentlemen, and codes for folding letters. In the Muromachi period (1333–1573) the samurai households of Ise and Ogasawara wrote down the etiquette of *tsutsumi*, the formal wrapping of gifts, and the *noshi* ornament attached to them. The paired butterflies *ochō* and *mechō* that dress sake flasks at weddings belong to this ceremonial tradition; the earliest drawing of them is in the *Onna Chōhōki* of 1692, and Ise Sadatake's *Tsutsumi-no-ki* of 1764 describes thirteen ceremonial folds.
+
+This is *girei origami*, ceremonial folding: abstract, stylised, governed by rules. It is not what we mean by origami today, but it kept the habit of folding alive among people who had paper to spare, and the butterflies are the one ceremonial design that looks like a model.
+
+## The first crane
+
+For a long time the standard account, which I repeated in an earlier version of this essay, held that there was no evidence of folding for pleasure in Japan before about 1600, and the first dated pictures came from the 1700s. That changed in 2017. A *kozuka*, the small knife handle fitted to a sword scabbard, made by the metalworker Gotō Eijō (1577–1617), turned out to be decorated with three paper cranes beside a pine tree. The piece has since been dated to 1591–93. It is a tiny object, a centimetre and a half wide, and it moves the paper crane, the most sophisticated of all traditional folds, back a full century.
+
+<!-- IMG (optional, no free image found): three cranes folded and photographed by me, next to a pine sprig, to echo the kozuka. Save as images/three-cranes.jpg, then:
+![Three cranes, as on the 1591 kozuka. Folded and photographed by the author.](images/three-cranes.jpg){fig-alt="Three folded paper cranes beside a pine sprig" fig-align="center" width="70%"} -->
+
+The crane cannot have been the first recreational fold; it is far too advanced. It is simply the one that happened to be engraved on something that survived. After it, the record thickens quickly:
+
+- 1680: Ihara Saikaku's verse about folded butterflies, possibly the *ochō* and *mechō*.
+- 1700–1713: cranes, a treasure ship and a boat appear as motifs in kimono pattern books.
+- 1717: a print, *Keisei ori tsuru*, shows a child learning to fold in a temple school, with a crane and a *komosō* (a monk in a basket hat) beside her.
+- 1734: *Ranma zushiki*, a book of patterns for carved transoms, shows a boat, a *komosō*, a thread container, a *sanbō* offering tray and a *tamatebako* box, the earliest modular design.
+- 1797: *Hiden senbazuru orikata*, the first printed book devoted to folding, by Akisato Ritō: 49 ways to fold linked cranes from a single slit sheet.
+- 1845: the *Kan no mado* manuscript of Adachi Kazuyuki, 48 designs including the frog, the cicada and the iris, which lay unpublished until 1961.
+
+By the Edo period, then, folding for fun was ordinary: *orikata*, *orisue*, *orimono*, several words for it, none of them yet "origami" in our sense.
+
+![Page from the *Hiden Senbazuru Orikata* ("The Secret of One Thousand Cranes Origami"), 1797. [Unknown monk from Japan](https://commons.wikimedia.org/wiki/File:Hiden_Senbazuru_Orikata-S8-1.jpg), public domain, via Wikimedia Commons.](images/senbazuru-1797.jpg){fig-alt="Woodblock-printed page showing linked paper cranes titled Inazuma (lightning) with a short poem, and the slit-cut diagram of the sheet at the bottom" fig-align="center" width="45%"}
+
+## Europe: napkins, puzzles and the cocotte
+
+Europe got paper late, through the Arab world: Spain by the eleventh century, Italy by the thirteenth. And it folded other things first. Fifteenth-century Italian banquets were decorated with linen folded into animals, castles and fountains; Mattia Giegher, who taught the subject in Padua, published the first treatise on the "art of folding" in 1629, and his designs crossed into Germany with Harsdörffer's *Trincir-Buch*. Several napkin forms, the waterbomb base among them, reappear later in paper.
+
+For paper itself, the earliest firm evidence is unglamorous: a box, shown being folded in the illustrated *Hours of Catherine of Cleves* around 1440. Luca Pacioli's puzzle manuscript of about 1500 contains folded-paper tricks. The small paper boat often cited from a 1498 edition of Sacrobosco's *Sphaera* is doubtful, and the "paper prisons" for flies in Webster's *Duchess of Malfi* may or may not be the waterbomb; honest histories now mark both with a question mark.
+
+Through the eighteenth century, European folding was a matter of toys and parlour tricks: paper hats, bangers, the "troublewit" pleated sheet, card castles. Then a bird. The *cocotte*, a little hen folded from a square, appears in a French painting of 1801 and gets its first written instructions in 1827. The Spanish call it the *pajarita* and claim it as their own; the Spanish evidence, from 1847, is later, and Miguel de Unamuno's *cocotología* of the 1900s, folding birds in Salamanca cafés, was a revival rather than a root.
+
+![Two hands making zigzag pleats, Fig. 5 in Georg Philipp Harsdörffer, *Vollständiges und von neuem vermehrtes Trincir-Buch* (Nuremberg: Gerhard Fürst, 1657). Public Domain Mark 1.0, SLUB Dresden, [digital.slub-dresden.de/id266645623](http://digital.slub-dresden.de/id266645623).](images/trincir-buch.jpg){fig-alt="Seventeenth-century engraving of two hands pleating a strip into zigzag folds, captioned Die V. Figur" fig-align="center" width="70%"}
+
+## Fröbel and the kindergarten
+
+The person who made folding a world practice was not a folder but a teacher. Friedrich Fröbel opened the first *Kindergarten* in 1840 and built its curriculum from "gifts" and "occupations", and paper folding was one of the occupations: Forms of Life (useful objects), Forms of Beauty (symmetrical patterns) and Forms of Knowledge (geometry: halves, diagonals, the square's relation to the triangle). He died in 1852, but the kindergartens multiplied, and wherever they went they carried packets of coloured squares and a set of standard folds.
+
+They reached Japan in 1876, when the first kindergarten opened at the Tokyo Women's Normal School. Within a decade Japanese children were folding Fröbel's geometric patterns alongside the crane and the *komosō*, and the two traditions had merged in the classroom.
+
+## The meeting
+
+Traffic ran the other way too. Japan showed at the Paris Exposition of 1867, and Japanese folds, the crane and above all the flapping bird, turned up in European magazines and conjuring books from the 1880s. By the time *Origami zusetsu* (1908) formally separated ceremonial from recreational folding, the word *origami* was settling into its modern meaning, and the craft was already international, though nobody called it that yet.
+
+## The modern era
+
+Three people, in three countries, turned a children's craft into an art. In Japan, Akira Yoshizawa (1911–2005) spent the 1930s and 40s inventing: thousands of original models, the wet-folding technique that lets paper hold a curve, and in 1954 a notation of dotted lines and arrows that anyone could read. In the United States, Lillian Oppenheimer founded the Origami Center of New York in 1958 and, with Gershon Legman, who had organised the first Western exhibition of Yoshizawa's work in Amsterdam in 1955, connected folders across the world by letter. In Britain, Robert Harbin's *Paper Magic* (1956) and the founding of the British Origami Society (1967) did the same. When Samuel Randlett's *The Art of Origami* (1961) adopted Yoshizawa's symbols, the Yoshizawa–Randlett system became the common written language of the craft, and it still is.
+
+![Origami bull, wet-folding technique. [Emre Ayaroğlu](https://commons.wikimedia.org/wiki/File:Wet-folding_bull.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), via Wikimedia Commons.](images/yoshizawa-bull.jpg){fig-alt="A smooth, rounded paper bull made by wet-folding" fig-align="center" width="70%"}
+
+## From art to mathematics
+
+The last chapter is the one this site is about. Once there was a notation, people began to ask what folding *could* do, and the first answer came as a list.
+
+In 1986 the French mathematician Jacques Justin published a set of seven elementary single-fold operations: each one asks for a crease that achieves one or more alignments between given points and lines on the sheet (Justin 1986). The paper appeared in a French journal for teachers and was largely overlooked. Humiaki Huzita rediscovered six of the operations and presented them at the first international meeting on origami science and technology, in Ferrara in 1989 (Huzita 1989). The seventh was found again by Koshiro Hatori in 2001, according to Alperin and Lang (2006). That is why the list goes by several names, Huzita's, Huzita–Justin or Huzita–Hatori axioms. Strictly they are operations rather than axioms in a logician's sense, but the name has stuck, and I use it on this site too.
+
+What makes them important is what they can do. Taken together they are a stronger geometric toolkit than straightedge and compass: they solve cubic equations (Alperin 2000), and with them one can trisect an arbitrary angle (Hull 1996), double the cube, and construct the regular heptagon (Geretschläger 1997), none of which compass and straightedge can do.
+
+Other results followed. Justin's name returns in the local conditions for a crease pattern to fold flat, the Maekawa–Justin and Kawasaki–Justin theorems. Robert Lang's *TreeMaker* (1990s) turned the design of an insect with the right number of legs into an optimisation problem. Koryo Miura's fold of 1970 went into a solar array. The international meetings on origami in science, mathematics and education, which began in Ferrara in 1989 and are now known as OSME, are where folders, mathematicians and engineers compare notes, and their proceedings are the field's record.
+
+That is the real sense in which origami is ancient: not that the crane is a thousand years old, but that a square of paper has been a laboratory for geometry since the first person folded a corner to a corner and noticed what the crease did.
+
+## Fold it yourself
+
+Fold the crane, and as you do, notice that it is harder than it looks: a bird base with a double sink is a serious piece of engineering for 1591. Then fold the two butterflies, *ochō* and *mechō*; they are easier, older in spirit, and the asymmetry between male and female is a small lesson in how ceremonial folding encodes meaning.
+
+## Classroom note
+
+Level: 12 and up. Time: one period. Materials: a square per student and a printed timeline. The exercise is historical method, not folding: give students the eight dated items above as a list, ask which prove folding for *pleasure* (as opposed to ritual) and which only prove paper, and let them argue about the sword fitting. Why does one engraved object outweigh a thousand confident claims?
+
+## References
+
+- Jacques Justin, "Résolution par le pliage de l'équation du troisième degré et applications géométriques", *L'Ouvert* 42 (1986) 9–19.
+- Humiaki Huzita, "Axiomatic development of origami geometry", in *Proceedings of the First International Meeting of Origami Science and Technology*, Ferrara, 1989, 143–158.
+- Roger C. Alperin, "A mathematical theory of origami constructions and numbers", *New York J. Math.* 6 (2000) 119–133.
+- Roger C. Alperin and Robert J. Lang, "One-, two-, and multi-fold origami axioms", in *Origami⁴*, A K Peters, 2006, 371–393.
+- Thomas Hull, "A note on 'impossible' paper folding", *Amer. Math. Monthly* 103 (1996) 240–241.
+- Robert Geretschläger, "Folding the regular heptagon", *Crux Mathematicorum* 23 (1997) 81–88.
+- Koshiro Hatori, "History of Origami in the East and the West before Interfusion", in *Origami⁵* (CRC Press, 2011).
+- David Mitchell, *The Public Paperfolding History Project*, origamiheaven.com — the most complete and continuously updated collection of primary evidence; the dates above follow it.
+- David Lister, "Really Old Origami" and other essays, British Origami Society (Lister list).
+- Joan Sallas and Charlotte Birnbaum, *The Beauty of the Fold* (Sternberg Press, 2012), on napkin folding.
+- Yuhiko Nakanishi's identification of the Gotō Eijō *kozuka*, reported in *The Asahi Shimbun*, March 2017.
+- Kyushu University Library, *History of Origami* research guide (in English).

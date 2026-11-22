@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# Build script for Cloudflare (Workers/Pages Git integration).
+# The build image has no Quarto, so fetch the latest release first.
+set -euo pipefail
+cd "$(dirname "$0")"
+
+if ! command -v quarto >/dev/null 2>&1; then
+  echo "Installing Quarto..."
+  mkdir -p /tmp/quarto
+  curl -fsSL https://quarto.org/download/latest/quarto-linux-amd64.tar.gz \
+    | tar xz -C /tmp/quarto --strip-components=1
+  export PATH="/tmp/quarto/bin:$PATH"
+fi
+quarto --version
+
+quarto render
+for b in books-src/*/; do
+  echo "Rendering book (HTML only): $b"
+  quarto render "$b" --to html
+done
+echo "Build finished: _site/"

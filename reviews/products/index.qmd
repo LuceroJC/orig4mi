@@ -1,0 +1,17 @@
+---
+title: "Origami-inspired products"
+description: "Objects that fold for a reason — bags, lamps, furniture, packaging, tools — judged as a folder would judge them."
+listing:
+  contents: "*/index.qmd"
+  sort: "date desc"
+  type: grid
+  categories: true
+  feed: true
+  fields: [image, title, description, rating]
+  field-display-names:
+    rating: "Rating"
+page-layout: full
+toc: false
+---
+
+I look at whether the folding does real work in the object (strength, compactness, deployability) or is decoration, and at how the thing holds up in use. Ratings out of 5. Some links are affiliate links — see the [disclosure](/disclosure.html).

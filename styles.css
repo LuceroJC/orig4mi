@@ -1,0 +1,16 @@
+/* Light touches only; the theme does the rest. */
+/* ---- Wordmark: orig4mi, with the 4 set apart ---- */
+.wordmark { letter-spacing: 0.04em; font-weight: 600; }
+.wordmark .four {
+  color: #d9480f;                                   /* accent: change here */
+  font-family: "Latin Modern Math", "Cambria Math", "STIX Two Math", "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 1.12em;
+  line-height: 1;
+}
+.navbar-title.wordmark { font-size: 1.35rem; }
+.quarto-title h1.title.wordmark { font-size: 3.2rem; letter-spacing: 0.06em; }
+.quarto-title .subtitle { font-style: italic; color: #555; }
+.affiliate-note { font-size: 0.9em; border-left: 3px solid #999; padding: 0.4em 0.8em; background: #f6f6f6; margin: 1em 0; }
+.rating { color: #b8860b; letter-spacing: 0.1em; }
+.quarto-listing-default .listing-rating { font-weight: 600; }

@@ -1,0 +1,7 @@
+# Configuration spaces of whole patterns
+
+<!-- Chapter stub. Planned contents: the system A(ρ)=0 with 3i+6h equations in j unknowns [@He2019]; why the count is not a theorem;
+     the flat-state singularity deg(0)=j−2i; generic rigidity as a dichotomy; the Katoh–Tanigawa criterion and why concurrency defeats it;
+     quad meshes and the Kokotsakis classification [@Izmestiev2017]; open problems. -->
+
+For a pattern with $i$ interior vertices, $j$ interior creases and $h$ holes, rigid folded states are the solutions of a system of $3i+6h$ equations in $j$ unknowns [@He2019]. The local degree of freedom at a regular point is $j$ minus the rank of the Jacobian. The naive count — rigid whenever $3i+6h\ge j$ — is false, for the same reason the Maxwell count fails for the "double banana" in space. What replaces it is not known. This chapter sets up the problem precisely and surveys what is.

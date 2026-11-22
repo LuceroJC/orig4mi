@@ -1,0 +1,11 @@
+---
+title: "About"
+---
+
+<!-- Replace with your own text. Keep it short; the Publications page carries the academic detail. -->
+
+Jorge C. Lucero is Professor Titular of Computer Science at the University of Brasília. Alongside thirty years of research on the mathematical modelling of voice production, he has published on the axiomatic foundations of origami geometry — single-fold operations, Beloch's fold, three-dimensional folding axioms — and folds complex origami for pleasure.
+
+This site is independent and personal. Some pages contain affiliate links; see the [disclosure](disclosure.qmd).
+
+**Contact:** <!-- email or form link -->

@@ -1,0 +1,53 @@
+project:
+  type: book
+  output-dir: ../../_site/books/rigid-origami   # lands inside the website's rendered output; run the website render first
+
+book:
+  title: "Rigid Origami"
+  subtitle: "Kinematics, Rigidity and Design"
+  author: "Jorge C. Lucero"
+  date: today
+  repo-url: https://github.com/lucerojc/folded-geometry   # adjust
+  repo-actions: [issue]
+  downloads: [pdf]
+  sidebar:
+    style: docked
+  chapters:
+    - index.qmd
+    - part: "Foundations"
+      chapters:
+        - 01-what-is-rigid-origami.qmd
+        - 02-single-vertex.qmd
+    - part: "Whole patterns"
+      chapters:
+        - 03-configuration-space.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+crossref:
+  thm-prefix: "Theorem"
+  lem-prefix: "Lemma"
+  def-prefix: "Definition"
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    number-sections: true
+    code-fold: true
+    html-math-method: katex
+  pdf:
+    documentclass: scrbook
+    papersize: a4
+    toc: true
+    number-sections: true
+    colorlinks: true
+    include-in-header:
+      text: |
+        \usepackage{amsthm}
+
+execute:
+  freeze: auto      # re-run Python only when a chapter changes
+  echo: true
+  warning: false

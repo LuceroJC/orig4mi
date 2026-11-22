@@ -1,0 +1,29 @@
+---
+title: "orig4mi"
+subtitle: "Origami with a touch of math"
+listing:
+  - id: latest-posts
+    contents: blog
+    sort: "date desc"
+    type: default
+    max-items: 5
+    fields: [date, title, description]
+page-layout: full
+toc: false
+---
+
+I am Jorge Lucero, a mathematician and computer scientist who has folded paper for decades and published on the axiomatics of origami geometry. This site collects what I write about folding: free online books in progress, my research papers, a blog, and reviews of origami books and origami-inspired objects.
+
+::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+### Start here
+- [Books](books/index.qmd) — online, free, updated as they are written
+- [Publications](publications/index.qmd) — papers with PDFs where the publisher allows
+- [Reviews](reviews/books/index.qmd) — origami books and [origami-inspired products](reviews/products/index.qmd)
+:::
+::: {.g-col-12 .g-col-md-6}
+### Latest from the blog
+::: {#latest-posts}
+:::
+:::
+:::

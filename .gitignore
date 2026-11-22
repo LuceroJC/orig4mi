@@ -1,0 +1,17 @@
+/_site/
+/.quarto/
+/books-src/*/_book/
+/books-src/*/.quarto/
+*_files/
+.jupyter_cache/
+
+**/*.quarto_ipynb
+
+# Cloudflare / Node (wrangler creates these when you deploy)
+node_modules/
+.wrangler/
+.dev.vars
+
+# OS / editor noise
+Thumbs.db
+.DS_Store

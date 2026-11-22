@@ -1,0 +1,18 @@
+---
+title: "Books"
+description: "Online books, free, written in the open and updated as chapters are finished."
+toc: false
+---
+
+<!-- Each book is a separate Quarto book project under books-src/ and is rendered into books/<slug>/ by build.sh / build.ps1.
+     Link each one here once it has content. -->
+
+### In progress
+
+- **[Rigid Origami: Kinematics, Rigidity and Design](rigid-origami/index.html)** — the mathematics of folding with rigid faces: single vertices, configuration spaces, degree-of-freedom counting, quad meshes, and what is still unknown. *Started November 2026.*
+
+### Planned
+
+- **Folding from Crease Patterns** — a practical, interactive guide: reading a CP, finding the structure, precreasing and collapsing, with animated foldings.
+
+Each book has a PDF download on its own page and a version history on GitHub.

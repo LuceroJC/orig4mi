@@ -1,0 +1,7 @@
+# Preface {.unnumbered}
+
+This is a book about origami in which the paper is not allowed to bend. Every face is a rigid plate, every crease a hinge, and the only question is whether — and how — the thing can move.
+
+That question turns out to be hard, open in several directions, and unusually useful: a pattern that folds rigidly with one degree of freedom is a deployable mechanism that a single motor can drive. This book collects what is known, in a form a mathematically literate reader can follow, and is honest about where knowledge stops.
+
+It is written in the open and will grow chapter by chapter. The HTML version is the primary one; the PDF is generated from the same source and loses the animations. Corrections and comments are welcome through the repository linked in the sidebar.

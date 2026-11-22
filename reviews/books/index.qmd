@@ -1,0 +1,19 @@
+---
+title: "Origami book reviews"
+description: "Books on origami, folding mathematics and design — read, folded from, and rated."
+listing:
+  contents: "*/index.qmd"
+  sort: "date desc"
+  type: table
+  categories: true
+  feed: true
+  fields: [date, title, author-reviewed, rating, level]
+  field-display-names:
+    author-reviewed: "Author"
+    rating: "Rating"
+    level: "Level"
+page-layout: full
+toc: false
+---
+
+Ratings are out of 5 and reflect how well a book does what it sets out to do, not how advanced it is. "Level" says who it is for. Some links are affiliate links — see the [disclosure](/disclosure.html).

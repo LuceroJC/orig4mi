@@ -1,0 +1,62 @@
+project:
+  type: website
+  output-dir: _site
+  # Books are separate Quarto projects under books-src/, rendered into _site/books/<slug>/ by build.sh / build.ps1
+  render:
+    - "*.qmd"
+    - "!books-src/"
+
+website:
+  title: "orig4mi"
+  description: "Origami with a touch of math — crease patterns, rigid origami, free online books, and honest reviews of folding books and origami-inspired things."
+  site-url: https://orig4mi.com
+  favicon: images/favicon.png
+  navbar:
+    left:
+      - text: Blog
+        href: blog/index.qmd
+      - text: Books
+        href: books/index.qmd
+      - text: Publications
+        href: publications/index.qmd
+      - text: Reviews
+        menu:
+          - text: Origami books
+            href: reviews/books/index.qmd
+          - text: Origami-inspired products
+            href: reviews/products/index.qmd
+      - text: About
+        href: about.qmd
+    right:
+      - icon: rss
+        href: blog/index.xml
+      - icon: github
+        href: https://github.com/lucerojc
+  page-footer:
+    left: "© 2026 Jorge C. Lucero · [Affiliate disclosure](/disclosure.html)"
+    right: "Built with [Quarto](https://quarto.org)"
+  search: true
+  google-analytics: ""              # optional
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-fold: true
+    link-external-newwindow: true
+    include-in-header:
+      - text: '<meta name="author" content="Jorge C. Lucero">'
+    include-after-body:
+      - text: |
+          <script>
+          // Wordmark: wrap the "4" of orig4mi in a span so CSS can style it.
+          document.querySelectorAll('.navbar-title, .quarto-title h1.title').forEach(function (el) {
+            if (/^orig4mi$/i.test(el.textContent.trim())) {
+              el.classList.add('wordmark');
+              el.innerHTML = el.textContent.trim().replace('4', '<span class="four">4</span>');
+            }
+          });
+          </script>
+
+lang: en

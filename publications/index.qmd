@@ -1,0 +1,16 @@
+---
+title: "Publications"
+description: "Papers on the mathematics of origami. PDFs are the accepted manuscripts where the publisher allows posting; otherwise the DOI links to the published version."
+bibliography: publications.bib
+nocite: '@*'
+toc: false
+---
+
+<!-- The list below is generated from publications.bib at render time. To add a paper, add a BibTeX entry
+     and drop its PDF in pdfs/<key>.pdf (the url field in the .bib points there). -->
+
+
+## Papers
+
+::: {#refs}
+:::

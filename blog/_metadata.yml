@@ -1,0 +1,4 @@
+# Applies to every post in this folder
+author: "Jorge C. Lucero"
+title-block-banner: false
+freeze: true        # don't re-run code chunks unless the post changes

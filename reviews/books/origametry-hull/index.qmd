@@ -1,0 +1,25 @@
+---
+title: "Origametry, by Thomas C. Hull"
+description: "The most complete mathematical treatment of paper folding, and the only book with a serious account of rigid origami."
+date: 2026-11-19
+author-reviewed: "Thomas C. Hull"
+rating: "★★★★★"
+level: "Advanced (proof-based)"
+categories: [mathematics, rigid origami, reference]
+---
+
+{{< include /_affiliate-note.qmd >}}
+
+<!-- Sample review. Structure to reuse: what it is · who it is for · what is good · what is missing · verdict · where to buy. -->
+
+**What it is.** Cambridge University Press, 2020, about 330 pages. Four parts: geometric constructions, the combinatorics of flat folding, connections to other mathematics, and non-flat (rigid) folding.
+
+**Who it is for.** Readers comfortable with proofs. Not a folding book: there are almost no models.
+
+**What is good.** Part IV is the only book-length account of rigid origami: the matrix model, the configuration space of rigid foldings, reciprocal diagrams, degree-4 vertex equations, NP-hardness, self-folding.
+
+**What is missing.** Thick origami and curved creases are barely touched. The exercises have no solutions.
+
+**Verdict.** Essential for anyone working on the mathematics of folding; too demanding as a first book — start with O'Rourke's *The Mathematics of Origami* if you want a gentler path.
+
+**Where to buy.** [Amazon](https://www.amazon.com/dp/ASIN-HERE?tag=YOURTAG-20) · [Cambridge University Press](https://www.cambridge.org/)

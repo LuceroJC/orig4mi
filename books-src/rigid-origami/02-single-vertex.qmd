@@ -1,0 +1,61 @@
+# The single vertex
+
+A single interior vertex is a spherical linkage: intersect the folded paper with a small sphere centred at the vertex and the panels become arcs of great circles of lengths $\alpha_k$, hinged at their ends. Everything about single-vertex rigid folding is a statement about closed spherical polygons.
+
+::: {#thm-dof-vertex}
+## Degrees of freedom of a generic vertex
+A generic interior vertex of degree $n\ge 3$ has $n-3$ degrees of freedom in its rigid foldings away from the flat state. In particular a degree-3 vertex is rigid, and a degree-4 vertex has a one-parameter rigid folding.
+:::
+
+::: {.proof}
+The closure condition @eq-closure imposes three independent equations on the $n$ folding angles; at a generic folded state the Jacobian has full rank, so the solution set is locally a manifold of dimension $n-3$. For $n=3$ the spherical triangle is rigid by the spherical side-side-side congruence.
+:::
+
+The degree-4 case is the workhorse of engineering origami. For a flat-foldable degree-4 vertex (opposite sector angles sum to $\pi$) the folding angles are related linearly in half-angle tangents, which is what makes the Miura-ori family tractable [@Hull2020; @Lang2018].
+
+## Computing the rank
+
+The chunk below builds the closure Jacobian for a random developable degree-$n$ vertex, evaluated at a random point of folding-angle space close to the flat state, and reports its rank. (A random point is not itself a folded state; the generic rank is what matters here. Later chapters project onto the solution set first.) It is the seed of the experiments on whole patterns.
+
+```{python}
+#| label: vertex-rank
+#| fig-cap: "Rank of the closure Jacobian for random vertices of degree 3 to 7."
+import numpy as np
+rng = np.random.default_rng(1)
+
+def Rz(a):
+    c, s = np.cos(a), np.sin(a)
+    return np.array([[c,-s,0],[s,c,0],[0,0,1]])
+
+def Rx(a):
+    c, s = np.cos(a), np.sin(a)
+    return np.array([[1,0,0],[0,c,-s],[0,s,c]])
+
+def closure(alpha, rho):
+    M = np.eye(3)
+    for a, r in zip(alpha, rho):
+        M = M @ Rz(a) @ Rx(r)
+    return M
+
+def residual(alpha, rho):
+    M = closure(alpha, rho)
+    # rotation-vector residual: three independent scalars
+    return np.array([M[2,1]-M[1,2], M[0,2]-M[2,0], M[1,0]-M[0,1]]) / 2
+
+def jacobian(alpha, rho, h=1e-6):
+    n = len(rho)
+    J = np.zeros((3, n))
+    for k in range(n):
+        d = np.zeros(n); d[k] = h
+        J[:, k] = (residual(alpha, rho + d) - residual(alpha, rho - d)) / (2*h)
+    return J
+
+for n in range(3, 8):
+    alpha = rng.dirichlet(np.ones(n)) * 2*np.pi      # developable: sums to 2*pi
+    rho = rng.normal(scale=0.05, size=n)             # near the flat state
+    r_generic = np.linalg.matrix_rank(jacobian(alpha, rho), tol=1e-7)
+    r_flat = np.linalg.matrix_rank(jacobian(alpha, np.zeros(n)), tol=1e-7)
+    print(f"degree {n}: rank {r_generic} generic ({n-r_generic} DOF), rank {r_flat} at the flat state ({n-r_flat} infinitesimal DOF)")
+```
+
+The flat state itself ($\rho=0$) is singular: there the rank drops to 2 and the vertex shows $n-2$ infinitesimal motions, one more than survive as finite foldings. Chapter 3 takes this up for whole patterns.

@@ -1,0 +1,29 @@
+# What rigid origami is
+
+Rigid origami studies crease patterns whose faces stay flat and undeformed while the dihedral angles at the creases change continuously. A model made of glass plates joined by hinges is the standard image [@Hull2020].
+
+::: {#def-crease-pattern}
+## Crease pattern
+A **crease pattern** is a planar straight-line graph $C=(V,E)$ embedded in a region $P\subset\mathbb{R}^2$ (the paper). Its bounded faces are the **panels**; edges interior to $P$ are **creases**.
+:::
+
+::: {#def-rigid-folding}
+## Rigid folded state and rigid folding
+A **rigid folded state** of $C$ is a map $f:P\to\mathbb{R}^3$ that is a Euclidean isometry on each panel and continuous across creases. A **rigid folding** is a continuous one-parameter family $f_t$ of rigid folded states with $f_0$ the identity (the unfolded sheet).
+:::
+
+The **folding angle** $\rho_e\in(-\pi,\pi)$ at a crease $e$ is the signed dihedral angle between its two panels; $\rho_e>0$ is a valley, $\rho_e<0$ a mountain. A rigid folding is therefore a path in folding-angle space $\boldsymbol\rho(t)\in(-\pi,\pi)^{|E|}$ satisfying a closure condition at every interior vertex.
+
+## The vertex closure condition
+
+Around an interior vertex $v$ of degree $n$ with sector angles $\alpha_1,\dots,\alpha_n$ (summing to $2\pi$ for developable paper) and folding angles $\rho_1,\dots,\rho_n$, walking once around $v$ returns the frame to itself:
+
+$$
+\prod_{k=1}^{n} R_{z}(\alpha_k)\,R_{x}(\rho_k) \;=\; I .
+$$ {#eq-closure}
+
+Equation [-@eq-closure] gives three independent scalar equations per interior vertex, not six: because all hinges meet at $v$, the translational part of the loop closes automatically. This single fact separates rigid origami from the general theory of hinged bodies and is the source of most of what is interesting — and open — in the subject.
+
+## Why engineers care
+
+A pattern with a one-degree-of-freedom rigid folding is a mechanism driven by one actuator. Deployable solar arrays, stents, shelters and packaging all want this property, and want it to survive manufacturing error. The engineering literature [@Misseroni2024] lists mobility analysis and inverse design of such patterns among the field's standing challenges; both are questions about the mathematics in the following chapters.

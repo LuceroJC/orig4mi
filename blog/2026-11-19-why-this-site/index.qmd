@@ -1,0 +1,12 @@
+---
+title: "Why this site"
+description: "What I intend to write here, and why online books rather than printed ones."
+date: 2026-11-19
+categories: [meta]
+---
+
+<!-- Sample post. Replace or delete. -->
+
+Two subjects in origami are badly served by the printed page: folding from crease patterns, and rigid origami. A crease pattern wants to be zoomed, printed at the size of your paper, and watched as it folds. Rigid origami is about motion. Both are natural subjects for a web book, and that is what I plan to write here, chapter by chapter, in the open.
+
+Along the way: notes on the mathematics, reviews of the books I read, and the occasional origami-inspired object that is worth knowing about.

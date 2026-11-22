@@ -5,6 +5,10 @@ project:
   render:
     - "*.qmd"
     - "!books-src/"
+  resources:
+    - favicon.ico                    # browsers request /favicon.ico directly
+    - images/favicon.svg
+    - images/apple-touch-icon.png
 
 website:
   title: "orig4mi"
@@ -47,6 +51,9 @@ format:
     link-external-newwindow: true
     include-in-header:
       - text: '<meta name="author" content="Jorge C. Lucero">'
+      - text: |
+          <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
+          <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
     include-after-body:
       - text: |
           <script>

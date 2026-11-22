@@ -9,6 +9,7 @@ project:
     - favicon.ico                    # browsers request /favicon.ico directly
     - images/favicon.svg
     - images/apple-touch-icon.png
+    - images/lm-four.woff
 
 website:
   title: "orig4mi"

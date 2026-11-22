@@ -1,9 +1,16 @@
 /* Light touches only; the theme does the rest. */
 /* ---- Wordmark: orig4mi, with the 4 set apart ---- */
+/* Latin Modern Math reduced to the glyph "4" (GUST Font License), so the 4 looks the same on every computer
+   and matches the favicon. */
+@font-face {
+  font-family: "orig4mi-four";
+  src: url("/images/lm-four.woff") format("woff");
+  font-display: block;
+}
 .wordmark { letter-spacing: 0.04em; font-weight: 600; }
 .wordmark .four {
   color: #d9480f;                                   /* accent: change here */
-  font-family: "Latin Modern Math", "Cambria Math", "STIX Two Math", "Times New Roman", serif;
+  font-family: "orig4mi-four", "Latin Modern Math", "Cambria Math", "STIX Two Math", "Times New Roman", serif;
   font-weight: 400;
   font-size: 1.12em;
   line-height: 1;

@@ -14,8 +14,11 @@ fi
 quarto --version
 
 quarto render
+# Books: computed chunks must be pre-rendered locally and committed in _freeze/
+# (execute: freeze: auto). No Python/Jupyter here, so never execute on the server.
 for b in books-src/*/; do
   echo "Rendering book (HTML only): $b"
-  quarto render "$b" --to html
+  quarto render "$b" --to html \
+    || { echo "Book $b failed — did you commit its _freeze/ folder?"; exit 1; }
 done
 echo "Build finished: _site/"

@@ -3,7 +3,7 @@ title: "orig4mi"
 subtitle: "Origami with a touch of math"
 listing:
   - id: latest-posts
-    contents: blog
+    contents: "blog/*/index.qmd"
     sort: "date desc"
     type: default
     max-items: 5

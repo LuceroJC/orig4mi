@@ -29,12 +29,15 @@ This is *girei origami*, ceremonial folding: abstract, stylised, governed by rul
 
 ## The first crane
 
-For a long time the standard account, which I repeated in an earlier version of this essay, held that there was no evidence of folding for pleasure in Japan before about 1600, and the first dated pictures came from the 1700s. That changed in 2017. A *kozuka*, the small knife handle fitted to a sword scabbard, made by the metalworker Gotō Eijō (1577–1617), turned out to be decorated with three paper cranes beside a pine tree. The piece has since been dated to 1591–93. It is a tiny object, a centimetre and a half wide, and it moves the paper crane, the most sophisticated of all traditional folds, back a full century.
+For a long time the standard account, which I repeated in an earlier version of this essay, held that there was no evidence of folding for pleasure in Japan before about 1600, and the first dated pictures came from the 1700s. That changed in 2017. A *kozuka*, the small knife handle fitted to a sword scabbard, made by the metalworker Gotō Eijō (1577–1617), turned out to be decorated with three paper cranes beside a pine tree. The piece has since been dated to 1591–93. It is a tiny object, 9.7 cm long and 1.4 cm wide, and it moves the paper crane, one of the most refined of the traditional folds, back a full century.
 
-<!-- IMG (optional, no free image found): three cranes folded and photographed by me, next to a pine sprig, to echo the kozuka. Save as images/three-cranes.jpg, then:
-![Three cranes, as on the 1591 kozuka. Folded and photographed by the author.](images/three-cranes.jpg){fig-alt="Three folded paper cranes beside a pine sprig" fig-align="center" width="70%"} -->
+![An origami crane on an *inrō*, a lacquered case for small items that hung from the sash.. Photo: Jōka, [CC BY-SA 2.0 FR](https://creativecommons.org/licenses/by-sa/2.0/fr/deed.en), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Origami_Crane_inro-Ethno_BHM_1070-P8260166.JPG).](images/inro-crane.jpg){fig-alt="A black lacquered inrō hanging from a brown silk cord, with a silver-grey origami crane and a gold bamboo-like plant in relief on its front" fig-align="center" width="45%"}
 
-The crane cannot have been the first recreational fold; it is far too advanced. It is simply the one that happened to be engraved on something that survived. After it, the record thickens quickly:
+Who owned such an object matters. The Gotō family made sword fittings for shoguns and warlords, and only a general, a lord or someone close to them could possess a Gotō piece; Eijō himself served Toyotomi Hideyoshi. Koshiro Hatori, in the 2017 study that made the kozuka known to the origami world, draws the conclusion that folding for pleasure already existed in samurai society, before it reached the townspeople of the Edo period. Ceremonial and recreational folding, he suggests, were not yet two separate things, and passed to the towns together. On his reading, the century between the kozuka and the first pattern books is not a hole in the evidence: it is the time the habit took to cross from the samurai class into town culture.
+
+The object also has a puzzle of its own. The central crane is carved accurately, but the two outer ones have an odd shape, like a hooded warrior with a hump behind. Hatori tried to fold that shape and could not reproduce it with simple folds. Eijō was a master engraver, so clumsiness is unlikely; Hatori's guess is that neither he nor the people around him knew how to fold a crane, and that he carved the sides from imagination, working from a front view alone. If so, the crane was still new, and little known even among samurai, in the 1590s. And why an *origami* crane rather than a real one? Okamura Masao, an adviser to the Nippon Origami Association, has offered a hypothesis. Hideyoshi's long-awaited heir, Tsurumatsu ("Crane Pine"), died at the age of two in the summer of 1591. A real crane is an auspicious bird and would have been wrong for a memorial piece, and the pine, in this case, would be a young one. It is a conjecture, not a fact, but it is the kind of question we can ask only because the object survived.
+
+One crane proves little about how many other folds existed; it is simply the one that happened to be engraved on something that has survived. After it, the record thickens quickly:
 
 - 1680: Ihara Saikaku's verse about folded butterflies, possibly the *ochō* and *mechō*.
 - 1700–1713: cranes, a treasure ship and a boat appear as motifs in kimono pattern books.
@@ -55,7 +58,7 @@ For paper itself, the earliest firm evidence is unglamorous: a box, shown being 
 
 Through the eighteenth century, European folding was a matter of toys and parlour tricks: paper hats, bangers, the "troublewit" pleated sheet, card castles. Then a bird. The *cocotte*, a little hen folded from a square, appears in a French painting of 1801 and gets its first written instructions in 1827. The Spanish call it the *pajarita* and claim it as their own; the Spanish evidence, from 1847, is later, and Miguel de Unamuno's *cocotología* of the 1900s, folding birds in Salamanca cafés, was a revival rather than a root.
 
-![Two hands making zigzag pleats, Fig. 5 in Georg Philipp Harsdörffer, *Vollständiges und von neuem vermehrtes Trincir-Buch* (Nuremberg: Gerhard Fürst, 1657). Public Domain Mark 1.0, SLUB Dresden, [digital.slub-dresden.de/id266645623](http://digital.slub-dresden.de/id266645623).](images/trincir-buch.jpg){fig-alt="Seventeenth-century engraving of two hands pleating a strip into zigzag folds, captioned Die V. Figur" fig-align="center" width="70%"}
+![Napking folding, Fig. 5 in Georg Philipp Harsdörffer, *Vollständiges und von neuem vermehrtes Trincir-Buch* (Nuremberg: Gerhard Fürst, 1657). Public Domain Mark 1.0, SLUB Dresden, [digital.slub-dresden.de/id266645623](http://digital.slub-dresden.de/id266645623).](images/trincir-buch.jpg){fig-alt="Seventeenth-century engraving of two hands pleating a strip into zigzag folds, captioned Die V. Figur" fig-align="center" width="70%"}
 
 ## Fröbel and the kindergarten
 
@@ -71,7 +74,7 @@ Traffic ran the other way too. Japan showed at the Paris Exposition of 1867, and
 
 Three people, in three countries, turned a children's craft into an art. In Japan, Akira Yoshizawa (1911–2005) spent the 1930s and 40s inventing: thousands of original models, the wet-folding technique that lets paper hold a curve, and in 1954 a notation of dotted lines and arrows that anyone could read. In the United States, Lillian Oppenheimer founded the Origami Center of New York in 1958 and, with Gershon Legman, who had organised the first Western exhibition of Yoshizawa's work in Amsterdam in 1955, connected folders across the world by letter. In Britain, Robert Harbin's *Paper Magic* (1956) and the founding of the British Origami Society (1967) did the same. When Samuel Randlett's *The Art of Origami* (1961) adopted Yoshizawa's symbols, the Yoshizawa–Randlett system became the common written language of the craft, and it still is.
 
-![Origami bull, wet-folding technique. [Emre Ayaroğlu](https://commons.wikimedia.org/wiki/File:Wet-folding_bull.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), via Wikimedia Commons.](images/yoshizawa-bull.jpg){fig-alt="A smooth, rounded paper bull made by wet-folding" fig-align="center" width="70%"}
+![Origami bull, designed by Stephan Weber. Wet folded from 35*35cm 90 gr elephant hide by [Emre Ayaroğlu](https://commons.wikimedia.org/wiki/File:Wet-folding_bull.jpg), [CC BY 2.0](https://creativecommons.org/licenses/by/2.0), via Wikimedia Commons.](images/yoshizawa-bull.jpg){fig-alt="A smooth, rounded paper bull made by wet-folding" fig-align="center" width="70%"}
 
 ## From art to mathematics
 
@@ -91,7 +94,15 @@ Fold the crane, and as you do, notice that it is harder than it looks: a bird ba
 
 ## Classroom note
 
-Level: 12 and up. Time: one period. Materials: a square per student and a printed timeline. The exercise is historical method, not folding: give students the eight dated items above as a list, ask which prove folding for *pleasure* (as opposed to ritual) and which only prove paper, and let them argue about the sword fitting. Why does one engraved object outweigh a thousand confident claims?
+Level: 12 and up. Time: one period. Materials: a printed timeline and, for the last step, a square of paper per student.
+
+This activity is about historical evidence, not folding. Give students these dated items from the story above: the cranes on the kozuka (a small decorated knife handle that fits on a sword scabbard, 1591–93), Saikaku's verse about butterflies (1680), the print of a child learning to fold (1717), *Ranma zushiki* (1734), *Hiden senbazuru orikata* (1797) and the *Kan no mado* manuscript (1845). Then ask three questions:
+
+1. Which items show that people folded paper *for pleasure*, and which could be about ritual or something else? (The 1680 verse is a good one to argue over: the butterflies may be ceremonial.)
+2. How do we know the date of each item? What would make you doubt it?
+3. Until 2017, histories said there was no firm evidence of recreational folding in Japan before about 1600. One engraved sword fitting changed that. Why can a single dated object change the story, when a claim repeated a thousand times, such as "origami is a thousand years old", cannot?
+
+To finish, students fold the crane and the *ochō*/*mechō* butterflies and decide which of the two they would expect to find in the oldest records, and why.
 
 ## References
 
@@ -105,5 +116,6 @@ Level: 12 and up. Time: one period. Materials: a square per student and a printe
 - David Mitchell, *The Public Paperfolding History Project*, origamiheaven.com — the most complete and continuously updated collection of primary evidence; the dates above follow it.
 - David Lister, "Really Old Origami" and other essays, British Origami Society (Lister list).
 - Joan Sallas and Charlotte Birnbaum, *The Beauty of the Fold* (Sternberg Press, 2012), on napkin folding.
+- Koshiro Hatori, "The historical significance of the *kozuka* with a pattern of origami cranes and Japanese pine tree" (in Japanese; English digest by Marcio Noguchi), *Origami Tanteidan Magazine* 164 (July 2017) 13–15. The scholarly account of the object, with photographs provided by its discoverer, Nakanishi Yūhiko (中西祐彦).
 - Yuhiko Nakanishi's identification of the Gotō Eijō *kozuka*, reported in *The Asahi Shimbun*, March 2017.
 - Kyushu University Library, *History of Origami* research guide (in English).

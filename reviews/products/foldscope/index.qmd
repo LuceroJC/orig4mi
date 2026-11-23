@@ -1,0 +1,105 @@
+---
+title: "Foldscope: a microscope folded from paper"
+description: "What a $1 paper microscope taught me about folding as engineering, how the 2.0 compares with the original, and who should buy one."
+date: 2026-11-24
+rating: "★★★★☆"
+categories: [science tools, education, flexures]
+image: images/foldscope-section.svg
+aliases:
+  - /foldscope.html
+  - /foldscope/
+draft: true
+---
+
+{{< include /_affiliate-note.qmd >}}
+
+<!-- Product review. Editor notes for Jorge are in [[double brackets]]; remove before publishing.
+     Rating is a placeholder: set it from your own experience. -->
+
+[[Hero photo: ideally your own Foldscope, assembled, next to a folded model for scale. If you don't have one yet, use a Foldscope press image with credit, or a Wikimedia Commons photo (CC BY-SA).]]
+
+In 2011 Manu Prakash, then setting up his bioengineering lab at Stanford, visited a clinic in Thailand and found a $50,000 microscope locked in a room, too precious to use. The instrument that should have made diagnosis possible was, in practice, furniture. Prakash and his graduate student Jim Cybulski asked a question that sounds like a dare: what is the best microscope you can build for under one dollar?
+
+Their answer, published in *PLOS ONE* in 2014, was a sheet of paper with a lens in it. They called it the Foldscope, and the name is not a metaphor. The microscope is a flat printed sheet that you punch out and fold, and the folds are what make it work.
+
+Origami has found its way into engineering at many scales, from satellite solar arrays to medical stents, and I will cover several of those here over the coming months. The Foldscope is the one case I know where the user does the folding, with their own hands, and the result is a working scientific instrument. That makes it the most "origami" of all the engineering applications, and the one you can actually hold.
+
+## What it is
+
+A Foldscope is an optical microscope whose body is a single sheet of thin, waterproof synthetic paper. Printed on the sheet are the outlines and fold lines of three parts: a lens holder, a sample stage with a slot for a slide, and a panning/focusing frame. You punch them out, fold each one, and slide them together. A tiny spherical lens, held in a metal ring, snaps into the lens holder with a magnet. Hold it up to a light source (a window, a lamp, your phone's flashlight), bring your eye to the lens, and you are looking at pond water at 140×.
+
+The original pilot units cost under a dollar in parts, which is where the "$1 microscope" headline comes from. Today's commercial version, the Foldscope 2.0, comes in kits from Foldscope Instruments, the Palo Alto company Cybulski runs. The two most common are:
+
+- **Explorer Kit** — one pre-assembled Foldscope 2.0, three lenses (50×, 140×, 340×), an LED light module, phone coupler, slides and tools, in a metal tin. Around US$45–50 depending on the retailer.
+- **Mini Explorer Kit** — the smaller, simpler Foldscope Mini with a fixed 140× lens, in a smaller tin. Around US$22.
+
+There are also classroom packs of twenty-plus units at much lower prices per microscope, which the company says it sells at no profit; the individual kits subsidize them. The original 2014 design claimed magnifications up to 2000× for some lens configurations, a number that still circulates (including in the first version of this post). The current product line tops out at 340×, with an optical resolution of about 2 microns, roughly the size of an *E. coli* bacterium. Those are the honest numbers.
+
+## The fold behind it
+
+The interesting engineering is not the lens. Ball lenses have been known since Leeuwenhoek; a small glass sphere gives high magnification for almost nothing. The problem has always been everything around the lens: holding it at exactly the right distance from the sample, keeping the sample flat, moving it in two dimensions to scan, and focusing, all to tolerances of a few hundredths of a millimeter. In a conventional microscope that is a machined brass or aluminum body with rack-and-pinion gears. It is why microscopes are expensive and why they break.
+
+Cybulski and Prakash replaced the metal body with **paper flexures**. A flexure is a mechanism that moves by bending rather than by sliding joints, and a folded sheet of paper is naturally a flexure: a crease is a hinge, and a strip between two creases is a spring. The Foldscope is three flat stages, cut from one sheet: an illumination stage (LED, battery, switch), a sample stage (a slot for the slide), and an optics stage (the ball lens in its aperture). Each is folded a few times and then the three are woven through one another into a single flat sandwich, 70 × 20 × 2 mm and 8.8 g in the original design. The design does three things that a machined body does with screws and gears:
+
+1. **Alignment comes from the folds.** A crease in paper of thickness $h$ is not a perfect hinge: the inner edge buckles, so each fold lands with a random error of order $h$. Rather than fight this, the design closes a structural loop between the optics stage and the illumination stage, so that several folds constrain the same position and their errors average out. Twenty cardstock Foldscopes, folded and unfolded twenty times each, aligned lens to light source to within about 60 µm, less than a fifth of the paper's thickness. The precision is in the die-cutting, which is cheap; the user's folding only has to be approximately right.
+2. **Focusing is a tension flexure.** The lens sits about half a millimeter from the sample. To focus, you rest your thumbs on the two ends of the top stage and pull them gently apart or push them together. The tension bends the optics stage and the lens moves a fraction of a millimeter in $z$. Let go and it springs back. There is no screw, and there is nothing to strip.
+3. **Panning is the same two thumbs moving together.** Unusually, the sample stays fixed while the optics and illumination stages slide over it in unison, constrained by the paper slots to a 20 × 20 mm range. Paper-on-paper friction holds the position.
+
+The sandwich structure is why the Foldscope has no fragile direction. Prakash's demonstration for lab visitors is to throw one off a balcony, stamp on it, and drop it in a beaker of water, then look through it. A flat woven sheet has no glass tube to crack and no gear train to misalign.
+
+![Cross-section of a Foldscope, schematically. Three paper stages are woven into a flat sandwich; the lens sits over the slide. Pulling the ends of the top stage apart flexes the optics stage and moves the lens in $z$, which is how you focus. Redrawn after Fig. 1C of Cybulski, Clements and Prakash (2014).](images/foldscope-section.svg){#fig-section fig-alt="Schematic side view of three stacked paper strips woven together, with a ball lens on the top strip above a slide on the middle strip and an LED on the bottom strip; arrows show pulling the top strip outward to move the lens down" fig-align="center" width="100%"}
+
+[[A crease pattern would not help here: the published layout (Fig. 1A of the paper) is a die-cut outline with slots and tabs, and most of the assembly is weaving, not folding. The cross-section is the figure that explains the mechanism. TikZ source is in images/foldscope-section.tex; re-render with pdflatex + pdftocairo -svg once the site style file exists.]]
+
+## Why folding wins here
+
+Three reasons, which generalize beyond this product.
+
+**Cost scales with area, not with parts.** A microscope body made of machined parts costs roughly in proportion to the number of parts and operations. A folded body costs in proportion to the sheet of paper. A die-cutter stamps out a thousand Foldscope sheets as cheaply as one. That is the same economics that make Miura-fold solar arrays and folded cardboard packaging work.
+
+**Assembly is instruction, not skill.** Because the fold lines are printed, assembly is deterministic. The company says a first build takes about twenty minutes and under five once you know the sequence. In the pilot program, over 70,000 Foldscopes were sent to people in 135+ countries, assembled by schoolchildren, farmers and field biologists with no training beyond a one-page diagram. Hundreds of thousands have since been given away free, and the company says its products have reached over two million people.
+
+**The mechanism is the material.** No separate hinges, springs or bearings: the paper does all three jobs. This is the deepest lesson of rigid and flexible origami for engineering, and the Foldscope is its clearest everyday demonstration.
+
+## In use
+
+[[This section is where the review becomes yours. Replace with your own experience if you have one. What I have written below is a fair summary of what long-term users report, flagged as such.]]
+
+Users who have spent time with the 2.0 agree on a few things. The 140× lens is the sweet spot: wide enough to find things, sharp enough to see cells. The 340× lens shows bacteria but demands patience with focus and light, and the depth of field (about 13 microns) means a thick sample is a blur. The magnetic phone coupler is the feature that changes the experience: once your phone camera is looking through the lens, you can record video, use the phone's zoom (which multiplies the optical magnification), and share what you found. The LED module lets you lay the Foldscope flat on a table for steady viewing instead of holding it up to a window.
+
+The honest limitations: it is a monocular, hand-held instrument, so extended viewing is tiring compared with a bench microscope. Sample preparation (thin, flat, on a paper slide under a clear sticker) takes practice. And the optics, while remarkable for the price, do not compete with a $300 student compound microscope for resolution or ease of use. They are not meant to.
+
+## Who should buy one
+
+- **Teachers**, without hesitation. The point of the Foldscope is not that it replaces a lab microscope but that every student can have one in their hand at once, and take it outdoors. The classroom packs make that affordable.
+- **Parents** of a curious eight-to-fourteen-year-old. The Mini is the right choice: one lens, nothing to lose, pocket-sized.
+- **Folders.** If you fold for the geometry, buy the unassembled version if you can find one, or at least open up the pre-assembled 2.0 and look at how the flexures are laid out. It is a well-designed crease pattern in its own right.
+- **Field naturalists** who want a microscope that weighs eight grams and does not care about rain.
+
+If you want to look at bacteria seriously, or you have a fixed desk and the budget, a conventional student microscope will serve you better.
+
+## One more thing it found
+
+In 2024, Prakash and Eliott Flaum published a paper in *Science* on *Lacrymaria olor*, a single-celled protist that extends a "neck" to 30 times its body length in under 30 seconds and retracts it just as fast. The mechanism turned out to be curved-crease origami: fifteen helical pleats in the cell membrane, braced by microtubules, that unfold and refold like a bendy straw. Prakash first noticed the organism while playing with a Foldscope in a drop of pond water. A paper microscope led to the first documented case of origami at the scale of a single cell. I have a post on *L. olor* coming in the Discover series; it is the best argument I know for giving a Foldscope to a child.
+
+## Where to get one
+
+[[Insert your Foldscope affiliate link here once approved; otherwise link to foldscope.com directly. Keep the disclosure line below either way.]]
+
+The Explorer Kit and the Mini Explorer Kit are sold at [foldscope.com](https://foldscope.com/) and through educational suppliers; outside the US, check shipping costs, which can exceed the price of the Mini. Brazilian readers: I have not found a local distributor; the Explorer Kit arrives by post with import tax on top.
+
+
+## Sources
+
+- Cybulski, J. S., Clements, J., Prakash, M. (2014). Foldscope: Origami-based paper microscope. *PLOS ONE* 9(6): e98781. [doi:10.1371/journal.pone.0098781](https://doi.org/10.1371/journal.pone.0098781)
+- Foldscope Instruments, [User guide: Foldscope 2.0 Explorer Kit](https://foldscope.com/pages/user-guide-foldscope-2-0-explorer-kit) (optical specifications)
+- Foldscope Instruments, [Donate page](https://foldscope.com/pages/donate) (reach figures)
+- Prakash Lab, Stanford, [Foldscope project page](https://prakashlab.stanford.edu/projects/foldscope)
+- Golden Goose Award 2022, [Manu Prakash and Jim Cybulski](https://goldengooseaward.org/01awardees/foldscopes) (origin story)
+- Stanford Woods Institute, [Free microscopes for citizen scientists](https://woods.stanford.edu/news/free-microscopes-citizen-scientists) (durability demonstration)
+- Flaum, E., Prakash, M. (2024). Curved crease origami and topological singularities enable hyperextensibility of *L. olor*. *Science* 384. [doi:10.1126/science.adk5511](https://doi.org/10.1126/science.adk5511)
+- Stanford News, [The first example of cellular origami](https://news.stanford.edu/stories/2024/06/the-first-example-of-cellular-origami) (June 2024)
+
+*Related on orig4mi:* [A history of origami, from ceremony to computation](/history-of-origami)
+
+[[Add the aerospace post here once it is published.]]

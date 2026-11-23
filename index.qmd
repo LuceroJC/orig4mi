@@ -7,7 +7,7 @@ listing:
     sort: "date desc"
     type: default
     max-items: 5
-    fields: [date, title, description]
+    fields: [image, date, title, description]
 page-layout: full
 toc: false
 ---

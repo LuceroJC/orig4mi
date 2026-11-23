@@ -6,7 +6,7 @@ categories: [understand, history]
 aliases:
   - /history-of-origami.html
   - /history-of-origami/
-image: images/yoshizawa-bull.jpg
+image: images/senbazuru-1797.jpg
 ---
 
 ## How old is origami?

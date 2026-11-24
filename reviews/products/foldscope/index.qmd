@@ -4,19 +4,17 @@ description: "What a $1 paper microscope taught me about folding as engineering,
 date: 2026-11-24
 rating: "★★★★☆"
 categories: [science tools, education, flexures]
-image: images/foldscope-section.svg
+image: images/foldscope-assembled.jpg
 aliases:
   - /foldscope.html
   - /foldscope/
-draft: true
 ---
 
-{{< include /_affiliate-note.qmd >}}
+<!-- {{< include /_affiliate-note.qmd >}} -->
 
-<!-- Product review. Editor notes for Jorge are in [[double brackets]]; remove before publishing.
-     Rating is a placeholder: set it from your own experience. -->
+<!-- Editor notes are HTML comments marked NOTE; they do not render. Rating is a placeholder. -->
 
-[[Hero photo: ideally your own Foldscope, assembled, next to a folded model for scale. If you don't have one yet, use a Foldscope press image with credit, or a Wikimedia Commons photo (CC BY-SA).]]
+![An assembled Foldscope. Photo: [Sockenpaket](https://commons.wikimedia.org/wiki/File:Aufgebautes_Foldscope.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons.](images/foldscope-assembled.jpg){fig-alt="A flat paper microscope made of printed card strips, with a small lens mounted in the centre, lying on a table" fig-align="center" width="80%"}
 
 In 2011 Manu Prakash, then setting up his bioengineering lab at Stanford, visited a clinic in Thailand and found a $50,000 microscope locked in a room, too precious to use. The instrument that should have made diagnosis possible was, in practice, furniture. Prakash and his graduate student Jim Cybulski asked a question that sounds like a dare: what is the best microscope you can build for under one dollar?
 
@@ -49,7 +47,7 @@ The sandwich structure is why the Foldscope has no fragile direction. Prakash's 
 
 ![Cross-section of a Foldscope, schematically. Three paper stages are woven into a flat sandwich; the lens sits over the slide. Pulling the ends of the top stage apart flexes the optics stage and moves the lens in $z$, which is how you focus. Redrawn after Fig. 1C of Cybulski, Clements and Prakash (2014).](images/foldscope-section.svg){#fig-section fig-alt="Schematic side view of three stacked paper strips woven together, with a ball lens on the top strip above a slide on the middle strip and an LED on the bottom strip; arrows show pulling the top strip outward to move the lens down" fig-align="center" width="100%"}
 
-[[A crease pattern would not help here: the published layout (Fig. 1A of the paper) is a die-cut outline with slots and tabs, and most of the assembly is weaving, not folding. The cross-section is the figure that explains the mechanism. TikZ source is in images/foldscope-section.tex; re-render with pdflatex + pdftocairo -svg once the site style file exists.]]
+<!-- NOTE: A crease pattern would not help here: the published layout (Fig. 1A of the paper) is a die-cut outline with slots and tabs, and most of the assembly is weaving, not folding. The cross-section is the figure that explains the mechanism. TikZ source is in images/foldscope-section.tex; re-render with pdflatex + pdftocairo -svg once the site style file exists. -->
 
 ## Why folding wins here
 
@@ -63,7 +61,7 @@ Three reasons, which generalize beyond this product.
 
 ## In use
 
-[[This section is where the review becomes yours. Replace with your own experience if you have one. What I have written below is a fair summary of what long-term users report, flagged as such.]]
+<!-- NOTE: This section is where the review becomes yours. Replace with your own experience if you have one. What I have written below is a fair summary of what long-term users report, flagged as such. -->
 
 Users who have spent time with the 2.0 agree on a few things. The 140× lens is the sweet spot: wide enough to find things, sharp enough to see cells. The 340× lens shows bacteria but demands patience with focus and light, and the depth of field (about 13 microns) means a thick sample is a blur. The magnetic phone coupler is the feature that changes the experience: once your phone camera is looking through the lens, you can record video, use the phone's zoom (which multiplies the optical magnification), and share what you found. The LED module lets you lay the Foldscope flat on a table for steady viewing instead of holding it up to a window.
 
@@ -84,10 +82,9 @@ In 2024, Prakash and Eliott Flaum published a paper in *Science* on *Lacrymaria 
 
 ## Where to get one
 
-[[Insert your Foldscope affiliate link here once approved; otherwise link to foldscope.com directly. Keep the disclosure line below either way.]]
+<!-- NOTE: Insert your Foldscope affiliate link here once approved; otherwise link to foldscope.com directly. Keep the disclosure line below either way. -->
 
-The Explorer Kit and the Mini Explorer Kit are sold at [foldscope.com](https://foldscope.com/) and through educational suppliers; outside the US, check shipping costs, which can exceed the price of the Mini. Brazilian readers: I have not found a local distributor; the Explorer Kit arrives by post with import tax on top.
-
+The Explorer Kit and the Mini Explorer Kit are sold at [foldscope.com](https://foldscope.com/) and through educational suppliers; outside the US, check shipping costs, which can exceed the price of the Mini. 
 
 ## Sources
 
@@ -102,4 +99,4 @@ The Explorer Kit and the Mini Explorer Kit are sold at [foldscope.com](https://f
 
 *Related on orig4mi:* [A history of origami, from ceremony to computation](/history-of-origami)
 
-[[Add the aerospace post here once it is published.]]
+<!-- NOTE: Add the aerospace post here once it is published. -->

@@ -7,23 +7,35 @@ listing:
     sort: "date desc"
     type: default
     max-items: 5
-    fields: [image, date, title, description]
+    fields: [image, date, title, description, categories]
+  - id: latest-reviews
+    contents:
+      - "reviews/books/*/index.qmd"
+      - "reviews/products/*/index.qmd"
+    sort: "date desc"
+    type: grid
+    grid-columns: 2
+    max-items: 4
+    fields: [image, title, description, rating]
+    field-display-names:
+      rating: "Rating"
 page-layout: full
 toc: false
 ---
 
-I am Jorge C Lucero, a professor of computer science who has folded paper for decades and published on the axiomatics of origami geometry. This site collects what I write about folding: free online books in progress, my research papers, a blog, and reviews of origami books and origami-inspired objects.
+I am Jorge C. Lucero, a professor of computer science who has folded paper for decades and published on the axiomatics of origami geometry. This site is where origami meets mathematics: models with an idea behind them, the theory and history of folding, and origami at work in science and engineering. There are also [free online books](books/index.qmd) in progress, my [papers](publications/index.qmd), and reviews of [origami books](reviews/books/index.qmd) and [origami-inspired products](reviews/products/index.qmd).
 
 ::: {.grid}
-::: {.g-col-12 .g-col-md-6}
-### Start here
-- [Books](books/index.qmd) — online, free, updated as they are written
-- [Publications](publications/index.qmd) — papers with PDFs where the publisher allows
-- [Reviews](reviews/books/index.qmd) — origami books and [origami-inspired products](reviews/products/index.qmd)
-:::
-::: {.g-col-12 .g-col-md-6}
-### Latest from the blog
+::: {.g-col-12 .g-col-lg-7}
+## From the blog
 ::: {#latest-posts}
 :::
+[All posts →](blog/index.qmd)
+:::
+::: {.g-col-12 .g-col-lg-5}
+## Reviews
+::: {#latest-reviews}
+:::
+[All book reviews →](reviews/books/index.qmd) · [All product reviews →](reviews/products/index.qmd)
 :::
 :::

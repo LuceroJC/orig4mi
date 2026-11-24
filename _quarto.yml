@@ -41,7 +41,7 @@ website:
     left: "© 2026 Jorge C. Lucero · [Affiliate disclosure](/disclosure.html)"
     right: "Built with [Quarto](https://quarto.org)"
   search: true
-  google-analytics: ""              # optional
+  google-analytics: "G-DDF3HRMHHS"              # optional
 
 format:
   html:

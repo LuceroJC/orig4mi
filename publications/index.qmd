@@ -3,6 +3,7 @@ title: "Publications"
 description: "Papers on the mathematics of origami. PDFs are the accepted manuscripts where the publisher allows posting; otherwise the DOI links to the published version."
 bibliography: publications.bib
 nocite: '@*'
+csl: reverse-chrono.csl
 toc: false
 ---
 

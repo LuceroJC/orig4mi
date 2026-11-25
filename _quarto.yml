@@ -10,6 +10,7 @@ project:
     - images/favicon.svg
     - images/apple-touch-icon.png
     - images/lm-four.woff
+    - publications/pdfs/*.pdf        # paper PDFs linked from the publications list
 
 website:
   title: "orig4mi"

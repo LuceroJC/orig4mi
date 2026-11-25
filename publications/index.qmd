@@ -4,6 +4,9 @@ description: "Papers on the mathematics of origami. PDFs are the accepted manusc
 bibliography: publications.bib
 nocite: '@*'
 csl: reverse-chrono.csl
+filters:
+  - citeproc
+  - pdf-links.lua
 toc: false
 ---
 

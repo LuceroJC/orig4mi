@@ -5,8 +5,8 @@ bibliography: publications.bib
 nocite: '@*'
 csl: reverse-chrono.csl
 filters:
-  - citeproc
-  - pdf-links.lua
+  - path: pdf-links.lua
+    at: post-render
 toc: false
 ---
 

@@ -21,4 +21,5 @@ for b in books-src/*/; do
   quarto render "$b" --to html \
     || { echo "Book $b failed — did you commit its _freeze/ folder?"; exit 1; }
 done
+bash ./fix-urls.sh _site
 echo "Build finished: _site/"

@@ -8,4 +8,5 @@ for b in books-src/*/; do
   quarto render "$b" --to html
   quarto render "$b" --to pdf   # comment out if no LaTeX installed (quarto install tinytex)
 done
+bash ./fix-urls.sh _site
 echo "Done. Open _site/index.html or run: quarto preview"

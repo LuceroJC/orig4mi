@@ -1,6 +1,6 @@
 ---
 title: "Publications"
-description: "Papers on the mathematics of origami, with links to the published PDF or DOI where available."
+description: "Papers on the mathematics of origami, with links to the PDF or DOI where available."
 bibliography: publications.bib
 nocite: '@*'
 csl: reverse-chrono.csl

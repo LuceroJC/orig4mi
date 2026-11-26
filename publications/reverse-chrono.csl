@@ -201,14 +201,11 @@
       </choose>
       <choose>
         <if type="legal_case" match="none">
-          <choose>
-            <if variable="DOI">
-              <text variable="DOI" prefix="https://doi.org/"/>
-            </if>
-            <else>
-              <text variable="URL"/>
-            </else>
-          </choose>
+          <!-- orig4mi: show both the DOI (bare, still linked) and the URL when both are given -->
+          <group delimiter=". ">
+            <text variable="DOI" prefix="doi: "/>
+            <text variable="URL"/>
+          </group>
         </if>
       </choose>
     </group>

@@ -9,7 +9,7 @@ toc: false
 
 ### In progress
 
-- **[Rigid Origami: Kinematics, Rigidity and Design](rigid-origami/index.html)** — the mathematics of folding with rigid faces: single vertices, configuration spaces, degree-of-freedom counting, quad meshes, and what is still unknown. *Started November 2026.*
+- **Rigid Origami: Kinematics, Rigidity and Design** — the mathematics of folding with rigid faces: single vertices, configuration spaces, degree-of-freedom counting, quad meshes, and what is still unknown. *Started November 2026.*
 
 ### Planned
 

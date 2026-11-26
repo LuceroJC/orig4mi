@@ -12,8 +12,6 @@ aliases:
 
 <!-- {{< include /_affiliate-note.qmd >}} -->
 
-<!-- Editor notes are HTML comments marked NOTE; they do not render. Rating is a placeholder. -->
-
 ![An assembled Foldscope. Photo: [Sockenpaket](https://commons.wikimedia.org/wiki/File:Aufgebautes_Foldscope.jpg), [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0), via Wikimedia Commons.](images/foldscope-assembled.jpg){fig-alt="A flat paper microscope made of printed card strips, with a small lens mounted in the centre, lying on a table" fig-align="center" width="80%"}
 
 In 2011 Manu Prakash, then setting up his bioengineering lab at Stanford, visited a clinic in Thailand and found a $50,000 microscope locked in a room, too precious to use. The instrument that should have made diagnosis possible was, in practice, furniture. Prakash and his graduate student Jim Cybulski asked a question that sounds like a dare: what is the best microscope you can build for under one dollar?
@@ -60,7 +58,7 @@ Three reasons, which generalize beyond this product.
 
 ## In use
 
-<!-- NOTE: This section is where the review becomes yours. Replace with your own experience if you have one. What I have written below is a fair summary of what long-term users report, flagged as such. -->
+
 
 Users who have spent time with the 2.0 agree on a few things. The 140× lens is the sweet spot: wide enough to find things, sharp enough to see cells. The 340× lens shows bacteria but demands patience with focus and light, and the depth of field (about 13 microns) means a thick sample is a blur. The magnetic phone coupler is the feature that changes the experience: once your phone camera is looking through the lens, you can record video, use the phone's zoom (which multiplies the optical magnification), and share what you found. The LED module lets you lay the Foldscope flat on a table for steady viewing instead of holding it up to a window.
 
@@ -81,7 +79,6 @@ In 2024, Prakash and Eliott Flaum published a paper in *Science* on *Lacrymaria 
 
 ## Where to get one
 
-<!-- NOTE: Insert your Foldscope affiliate link here once approved; otherwise link to foldscope.com directly. Keep the disclosure line below either way. -->
 
 The Explorer Kit and the Mini Explorer Kit are sold at [foldscope.com](https://foldscope.com/) and through educational suppliers; outside the US, check shipping costs, which can exceed the price of the Mini. 
 
@@ -98,4 +95,4 @@ The Explorer Kit and the Mini Explorer Kit are sold at [foldscope.com](https://f
 
 *Related on orig4mi:* [A history of origami, from ceremony to computation](/history-of-origami)
 
-<!-- NOTE: Add the aerospace post here once it is published. -->
+
